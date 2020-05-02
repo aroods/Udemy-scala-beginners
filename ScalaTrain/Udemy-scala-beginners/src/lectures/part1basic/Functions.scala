@@ -45,7 +45,7 @@ object Functions extends App{
     if (n <= 2 ) 1
     else Test3(n-1) + Test3(n-2)
 
- println(Test3(8))
+ println(Test3(8)) 
 
   def isPrime(n: Int): Boolean = {
     def isPrimeUntil(t: Int): Boolean =
